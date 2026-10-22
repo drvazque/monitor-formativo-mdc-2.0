@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monitor Formativo 2.0 · Psicología UNAM</title>
+  <meta name="description" content="Un espacio para comprender tu diagnóstico, acordar metas y acompañar el desarrollo de seis competencias transversales en Psicología.">
+  <meta name="theme-color" content="#002b5c">
+  <link rel="stylesheet" href="styles.css"><script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir al contenido</a>
+  <div class="demo-strip">PROTOTIPO ILUSTRATIVO · USO ACADÉMICO</div>
+  <header class="institutional-header">
+    <div class="brand-lockup"><img class="logo logo-unam" src="assets/unam_font_clasica.png" alt="Universidad Nacional Autónoma de México"><div class="brand-rule"></div><img class="logo logo-facultad" src="assets/facultad-de-psicologia.png" alt="Facultad de Psicología"><div class="brand-copy"><p>Facultad de Psicología · UNAM</p><h1>Monitor Formativo <span class="version-pill">2.0</span></h1></div></div>
+    <div class="lab-lockup"><div class="author"><span>Computational Psychometrics Lab</span><strong>Dr. Ramsés Vázquez Lira</strong></div><img class="logo logo-lab" src="assets/CP_lab_logo_negro.png" alt="Computational Psychometrics Lab"></div>
+  </header>
+  <div class="app-shell">
+    <aside class="sidebar"><div class="project-mark"><span class="project-monogram">MDC</span><div><strong>Comprender para<br>acompañar</strong><small>PSICOLOGÍA · UNAM</small></div></div>
+      <nav class="nav-list" aria-label="Vistas del monitor">
+        <button class="nav-button active" data-view="profile" aria-current="page"><span class="nav-icon">01</span>Mi perfil</button>
+        <button class="nav-button" data-view="institution"><span class="nav-icon">02</span>Vista institucional</button>
+        <button class="nav-button" data-view="guide"><span class="nav-icon">03</span>Cómo interpretar</button>
+        <button class="nav-button" data-view="about"><span class="nav-icon">04</span>Acerca del sistema</button>
+      </nav>
+      <div class="sidebar-note"><span class="shield">◇</span><strong>Un punto de partida,<br>no una etiqueta.</strong><p>Tu diagnóstico orienta el aprendizaje y el acompañamiento. No determina tu trayectoria.</p><button class="sidebar-link" data-help="student">Cómo leo mis resultados →</button></div>
+    </aside>
+    <main id="main" tabindex="-1">
+      <section id="profile" class="view active" aria-label="Mi perfil"></section>
+      <section id="institution" class="view" aria-label="Vista institucional"></section>
+      <section id="guide" class="view" aria-label="Cómo interpretar"></section>
+      <section id="about" class="view" aria-label="Acerca del sistema"></section>
+      <footer class="page-footer">Monitor Formativo 2.0 · Computational Psychometrics Lab · Facultad de Psicología, UNAM<br><span>Diseño para el aprendizaje y el acompañamiento académico.</span></footer>
+    </main>
+  </div>
+  <dialog id="detail-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Cerrar diálogo">×</button><div id="dialog-body"></div></dialog>
+  <p id="live-status" class="sr-only" role="status" aria-live="polite"></p>
+</body>
+</html>
